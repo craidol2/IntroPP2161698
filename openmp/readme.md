@@ -9,11 +9,11 @@ Dentro de la carpeta, se encuentran localizados los 5 archivos de la entrega de 
 
 
 ## Ejecución del programa:
-En Guane:
+#### En Guane:
 1. gcc -fopenmp omp_fcpn.c -o fcpn -lm  //compilar
 2. sbatch fcpn.sbatch  //ejecutar sbatch
 3. Abrir el archivo   output_fcpn.txt    //ver salida  
-En local:  
+#### En local:
 1. gcc -fopenmp omp_fcpn.c -o fcpn -lm   //compilar
 2. ./fcpn <<<1000  //ejecutar (paso 1000 como paramero)  
 ## Nota:
