@@ -4,7 +4,7 @@
 #SBATCH --job-name=fcpn # Nombre de la tarea a ejecutar - puede ser cualquiera
 #SBATCH --nodes=1           # Cantidad de nodos a usar
 #SBATCH --ntasks=1          # Numero de tareas a ejecutar
-##SBATCH --cpus-per-task=16  # Numero de cores asignados a cada tarea
+#SBATCH --cpus-per-task=16  # Numero de cores asignados a cada tarea
 #SBATCH --ntasks-per-node=1 # Numero total de tareas a ejecutar por nodo
 #SBATCH --output=output_fcpn.txt # Archivo de salida donde se encuentran los resultados de la ejecucion
 ##SBATCH --error=error_fcpn_%j.err  # Archivo que contiene los errores de ejecucion
